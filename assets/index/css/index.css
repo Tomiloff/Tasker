@@ -1,3 +1,7 @@
+/* Resetting-styles */
+@import "reset.css";
+
+
 /* Fonts */
 @font-face {
    font-family: 'OpenSansLight';
@@ -19,4 +23,25 @@
    --red: #F45E6D;
    --green: #F45E6D;
    --grey: #EBEFF5;
+ }
+
+ 
+ /* Global-css */
+ body {
+   font-family: 'OpenSansLight';
+   font-size: 18px;
+ }
+
+ main {
+    max-width: 935px;
+    margin: 0 auto;
+    height: 100vh;
+ }
+
+ h1 {
+   font-size: 32px;
+   line-height: 41px;
+   letter-spacing: 0.01em;
+   color: var(--black);
+   font-weight: bold;
  }
