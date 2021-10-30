@@ -1,5 +1,16 @@
-/* Colors */
+/* Fonts */
+@font-face {
+   font-family: 'OpenSansLight';
+   src: url('../../all-fonts/fonts/OpenSansLight.eot');
+   src: url('../../all-fonts/fonts/OpenSansLight.eot') format('embedded-opentype'),
+        url('../../all-fonts/fonts/OpenSansLight.woff2') format('woff2'),
+        url('../../all-fonts/fonts/OpenSansLight.woff') format('woff'),
+        url('../../all-fonts/fonts/OpenSansLight.ttf') format('truetype'),
+        url('../../all-fonts/fonts/OpenSansLight.svg#OpenSansLight') format('svg');
+}
 
+
+/* Colors */
 :root {
    --blue: #006CFF;
    --black: #252A31;
