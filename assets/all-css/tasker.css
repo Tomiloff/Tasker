@@ -1,0 +1,52 @@
+.header {
+   width: 100%;
+   padding: 30px;
+   justify-content: space-between;
+   color: var(--black);
+   border-bottom: 2px solid var(--grey);
+   position: relative;
+}
+
+.header-btn {
+   cursor: pointer;
+   position: relative;
+   border-radius: 50%;
+   height: 40px;
+   width: 40px;
+}
+
+.header-btn:hover {
+   background: #f1f4ff;
+}
+
+.header-btn-icon {
+   position: absolute;
+   top: 50%;
+   right: 15%;
+   transform: translate(-8%, -50%);
+}
+
+.header-list {
+   display: none;
+   position: absolute;
+   top: 80px;
+   right: 30px;
+   padding: 10px 20px;
+   border-radius: 10px;
+   background: #FFFFFF;
+   border: 2px solid var(--grey);
+}
+
+.header-list li {
+   cursor: pointer;
+   padding: 10px 0;
+   letter-spacing: 1px;
+}
+
+.header-list li:hover {
+   color: var(--blue);
+}
+
+#exit:hover {
+   color: var(--red);
+}
