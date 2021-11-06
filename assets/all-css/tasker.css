@@ -7,6 +7,14 @@
    position: relative;
 }
 
+.header-logo svg {
+   border-radius: 20px;
+}
+
+.header-title {
+   margin-left: 20px;
+}
+
 .header-btn {
    cursor: pointer;
    position: relative;
