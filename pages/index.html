@@ -18,7 +18,7 @@
    <div class="wrapper">
       <header class="header flex">
          <div class="header-logo flex">
-            <svg width="40" height="40" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="40" height="40" viewBox="0 0 128 128" fill="none">
                <rect width="128" height="128" fill="white" />
                <rect width="128" height="128" rx="32" fill="white" />
                <rect x="152.184" y="9.5" width="10" height="174.641" transform="rotate(45 152.184 9.5)"
@@ -31,7 +31,14 @@
             </svg>
             <h1 class="header-title">Tasker</h1>
          </div>
-         <div class="header-btn">
+         <div class="header-btn" id="header-btn">
+            <svg class="header-btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+               <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M1.5 12C1.5 13.3807 2.61929 14.5 4 14.5C5.38071 14.5 6.5 13.3807 6.5 12C6.5 10.6193 5.38071 9.5 4 9.5C2.61929 9.5 1.5 10.6193 1.5 12ZM12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5ZM20 14.5C18.6193 14.5 17.5 13.3807 17.5 12C17.5 10.6193 18.6193 9.5 20 9.5C21.3807 9.5 22.5 10.6193 22.5 12C22.5 13.3807 21.3807 14.5 20 14.5Z"
+                  fill="#006CFF" />
+            </svg>
+         </div>
+         <div class="header-btn" id="header-btn-mobile">
             <svg class="header-btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
                <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M1.5 12C1.5 13.3807 2.61929 14.5 4 14.5C5.38071 14.5 6.5 13.3807 6.5 12C6.5 10.6193 5.38071 9.5 4 9.5C2.61929 9.5 1.5 10.6193 1.5 12ZM12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5ZM20 14.5C18.6193 14.5 17.5 13.3807 17.5 12C17.5 10.6193 18.6193 9.5 20 9.5C21.3807 9.5 22.5 10.6193 22.5 12C22.5 13.3807 21.3807 14.5 20 14.5Z"
@@ -43,6 +50,20 @@
             <li>Settings</li>
             <li id="exit">Exit</li>
          </ol>
+         <div class="mobile-menu">
+            <ol class="mobile-menu-list">
+               <li>Profile</li>
+               <li>Settings</li>
+               <li id="exit">Exit</li>
+            </ol>
+            <button class="mobile-menu-exit">
+               <svg width="38" height="38" viewBox="0 0 34 34" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M15.5857 14.1716C16.3667 14.9526 17.6331 14.9526 18.4141 14.1716L21.9496 10.636C22.3402 10.2455 22.9733 10.2455 23.3639 10.636C23.7544 11.0266 23.7544 11.6597 23.3639 12.0503L19.8283 15.5858C19.0473 16.3668 19.0473 17.6332 19.8283 18.4142L23.3639 21.9497C23.7544 22.3403 23.7544 22.9734 23.3639 23.364C22.9733 23.7545 22.3402 23.7545 21.9496 23.364L18.4141 19.8284C17.6331 19.0474 16.3667 19.0474 15.5857 19.8284L12.0501 23.364C11.6596 23.7545 11.0265 23.7545 10.6359 23.364C10.2454 22.9734 10.2454 22.3403 10.6359 21.9497L14.1715 18.4142C14.9525 17.6332 14.9525 16.3668 14.1715 15.5858L10.6359 12.0503C10.2454 11.6597 10.2454 11.0266 10.6359 10.636C11.0265 10.2455 11.6596 10.2455 12.0501 10.636L15.5857 14.1716Z"
+                     fill="white" />
+               </svg>
+            </button>
+         </div>
       </header>
    </div>
 

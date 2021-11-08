@@ -2,6 +2,7 @@
 @import "../../all-css/reset.css";
 @import "../../all-css/tasker.css";
 @import "../../all-css/global-styles.css";
+@import "../../all-css/media.css";
 
 /* Fonts */
 @font-face {
