@@ -78,7 +78,6 @@
 .mobile-menu-list li {
    cursor: pointer;
    padding: 10px 0;
-   font-weight: bold;
 }
 
 .mobile-menu-list li:hover {
@@ -100,4 +99,24 @@
 
 .mobile-menu-exit:hover {
    background: var(--dul-red);
+}
+
+main {
+   max-width: 1360px;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+   grid-column-gap: 6px;
+   grid-row-gap: 6px;
+   padding: 30px;
+   justify-content: center;
+}
+
+.main-section {
+   padding: 40px;
+   background: var(--red);
+   border-radius: 10px;
+   justify-content: center;
+   align-items: center;
+   color: var(--grey);
 }

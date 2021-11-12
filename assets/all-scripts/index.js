@@ -13,13 +13,19 @@ $(function () {
    });
 
 
-   // Обработка клика по кнопке мобильного меню #header-btn-mobile
+   // Обработка клика по кнопке мобильного меню #header-btn-mobile с отключением скролла
    $("#header-btn-mobile").click(function () {
       $(".mobile-menu").slideToggle();
+      $("body").css({
+         "overflow": "hidden"
+      })
    });
 
    $(".mobile-menu-exit").click(function () {
       $(".mobile-menu").slideUp();
+      $("body").css({
+         "overflow": "visible"
+      })
    });
 
 });
