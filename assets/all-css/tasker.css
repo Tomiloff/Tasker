@@ -78,6 +78,7 @@
 .mobile-menu-list li {
    cursor: pointer;
    padding: 10px 0;
+   font-weight: bold;
 }
 
 .mobile-menu-list li:hover {
