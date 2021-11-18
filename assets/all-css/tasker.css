@@ -1,6 +1,6 @@
 .header {
    width: 100%;
-   padding: 30px;
+   padding: 15px 30px 15px 30px;
    justify-content: space-between;
    color: var(--black);
    border-bottom: 2px solid var(--green);
@@ -113,10 +113,47 @@ main {
 }
 
 .main-section {
+   position: relative;
    padding: 40px;
    background: var(--red);
    border-radius: 10px;
    justify-content: center;
    align-items: center;
    color: var(--grey);
+}
+
+.editSection{
+   background: none;
+   position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.main-section .editSection:hover {
+   transform: rotate(90deg);
+}
+
+.main-section-btn {
+   padding: 40px;
+   background: var(--red);
+   border-radius: 10px;
+   justify-content: center;
+   align-items: center;
+   color: var(--grey);
+   cursor: pointer;
+}
+
+#mainSectionName {
+   background: none;
+   border-radius: 10px;
+   border: 1px solid var(--black);
+}
+
+#addName {
+   margin-left: 5px;
+   border-radius: 50%;
+   background: none;
+   border: 1px solid var(--black);
+   cursor: pointer;
 }
