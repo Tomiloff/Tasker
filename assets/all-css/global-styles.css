@@ -16,6 +16,7 @@
    font-family: 'OpenSansLight';
    font-size: 18px;
    font-weight: bold;
+   background: var(--grey);
  }
 
  h1 {

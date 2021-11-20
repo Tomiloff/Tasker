@@ -43,16 +43,30 @@ $(function () {
          e.preventDefault();
       }
       else {
-         $(this).parent(".main-section").append("<input type='text' id='mainSectionName'></input><button id='addName'>ok</button>");
+         $(this).parent(".main-section").append("<input type='text' id='mainSectionName' maxlength='30'></input><button id='addName'>ok</button>");
          $(this).next().detach();
       }
    })
 
 
-   // получение введённых данных в input и изменение названия раздела с tasks
+   // Получение введённых данных в input #mainSectionName, изменение названия и стилизации раздела с tasks
    $("main").on("click", "#addName", function () {
       let newBlockName = $("#mainSectionName").val();
-      $(this).parent(".main-section").append("<h2>" + newBlockName + "</h2>").children("#addName,#mainSectionName").detach();
+      if (newBlockName == "Важное") {
+         $(this).parent(".main-section").append("<h2>" + newBlockName + "</h2>").removeClass().addClass("main-section flex important-section").children("#addName, #mainSectionName").detach();
+      }
+      else if (newBlockName == "Работа") {
+         $(this).parent(".main-section").append("<h2>" + newBlockName + "</h2>").removeClass().addClass("main-section flex work-section").children("#addName, #mainSectionName").detach();
+      }
+      else if (newBlockName == "Личное") {
+         $(this).parent(".main-section").append("<h2>" + newBlockName + "</h2>").removeClass().addClass("main-section flex personal-section").children("#addName, #mainSectionName").detach();
+      }
+      else if (newBlockName == "Идеи") {
+         $(this).parent(".main-section").append("<h2>" + newBlockName + "</h2>").removeClass().addClass("main-section flex ideas-section").children("#addName, #mainSectionName").detach();
+      }
+      else {
+         $(this).parent(".main-section").append("<h2>" + newBlockName + "</h2>").removeClass().addClass("main-section flex").children("#addName, #mainSectionName").detach();;
+      }
    });
 
 

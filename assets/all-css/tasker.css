@@ -4,7 +4,9 @@
    justify-content: space-between;
    color: var(--black);
    border-bottom: 2px solid var(--green);
-   position: relative;
+   position: fixed;
+   background: var(--grey);
+    z-index: 9000;
 }
 
 .header-logo svg {
@@ -41,7 +43,7 @@
 .header-list {
    display: none;
    position: absolute;
-   top: 80px;
+   top: 60px;
    right: 30px;
    padding: 10px 20px;
    border-radius: 10px;
@@ -108,18 +110,18 @@ main {
    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
    grid-column-gap: 6px;
    grid-row-gap: 6px;
-   padding: 30px;
+   padding: 80px 30px 0 30px;
    justify-content: center;
 }
 
 .main-section {
    position: relative;
    padding: 40px;
-   background: var(--red);
+   background: var(--green);
    border-radius: 10px;
    justify-content: center;
    align-items: center;
-   color: var(--grey);
+   color: var(--black);
 }
 
 .editSection{
@@ -136,18 +138,23 @@ main {
 
 .main-section-btn {
    padding: 40px;
-   background: var(--red);
+   background: var(--green);
    border-radius: 10px;
    justify-content: center;
    align-items: center;
-   color: var(--grey);
+   color: var(--black);
    cursor: pointer;
+}
+
+.main-section-btn:hover {
+   background: #7ec8a6;
 }
 
 #mainSectionName {
    background: none;
    border-radius: 10px;
    border: 1px solid var(--black);
+   padding: 0 10px;
 }
 
 #addName {
@@ -156,4 +163,24 @@ main {
    background: none;
    border: 1px solid var(--black);
    cursor: pointer;
+}
+
+.important-section {
+   background: var(--red);
+   color: var(--grey);
+}
+
+.work-section {
+   background: var(--purple);
+   color: var(--grey);
+}
+
+.personal-section {
+   background: var(--blue);
+   color: var(--grey);
+}
+
+.ideas-section {
+   background: var(--yellow);
+   color: var(--black);
 }
