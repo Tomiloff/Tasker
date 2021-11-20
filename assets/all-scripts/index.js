@@ -49,7 +49,7 @@ $(function () {
          e.preventDefault();
       }
       else {
-         $(this).parent(".main-section").append("<input type='text' id='mainSectionName' maxlength='30'></input><button id='addName'>ok</button>");
+         $(this).parent(".main-section").append("<input type='text' id='mainSectionName' maxlength='20'></input><button id='addName'>ok</button>");
          $(this).next().detach();
       }
    })
