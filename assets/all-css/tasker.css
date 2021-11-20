@@ -167,7 +167,8 @@ main {
    background: none;
    border-radius: 10px;
    border: 1px solid var(--black);
-   padding: 0 10px;
+   font-size: 15px;
+   padding: 3px 5px;
 }
 
 #addName {
