@@ -116,12 +116,18 @@ main {
 
 .main-section {
    position: relative;
-   padding: 40px;
+   padding: 43px;
    background: var(--green);
    border-radius: 10px;
    justify-content: center;
    align-items: center;
    color: var(--black);
+   cursor: pointer;
+}
+
+.main-section:hover {
+   box-shadow: 0 0 6px rgba(0,0,0,0.5);
+   opacity: 0.9;
 }
 
 .editSection {
@@ -134,6 +140,7 @@ main {
 
 .main-section .editSection:hover {
    transform: rotate(90deg);
+   transition: 0.2s;
 }
 
 .deleteSection {
@@ -168,7 +175,8 @@ main {
    border-radius: 10px;
    border: 1px solid var(--black);
    font-size: 15px;
-   padding: 3px 5px;
+   padding: 0 5px;
+   text-align: center;
 }
 
 #addName {
