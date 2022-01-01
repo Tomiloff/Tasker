@@ -208,7 +208,7 @@ main {
 }
 
 .main-section-tab {
-   position: absolute;
+   position: fixed;
    top: 0;
    left: 0;
    transform: translate(-0, -0);
@@ -216,8 +216,12 @@ main {
    height: 100vh;
    width: 100vw;
    background: var(--green);
-   padding: 15px 30px 0 30px;
+   padding: 15px 30px;
    overflow: auto;
+}
+
+.section-tab-header {
+   align-items: center;
 }
 
 .tab-header-btnExit {
@@ -256,6 +260,25 @@ main {
 }
 
 .section-tab-task button {
+   background: none;
+   margin-left: 10px;
+   cursor: pointer;
+}
+
+.section-tab-item {
+   padding: 15px 10px;
+   background: var(--black);
+   opacity: 0.8;
+   border-radius: 10px;
+   align-items: center;
+   justify-content: space-between;
+   box-shadow: -1px 0px 22px 13px rgba(34, 60, 80, 0.2);
+   max-width: 600px;
+   margin-top: 20px;
+   color: var(--grey);
+}
+
+.section-tab-item button {
    background: none;
    margin-left: 10px;
    cursor: pointer;
