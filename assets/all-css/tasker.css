@@ -152,8 +152,8 @@ main {
 }
 
 .deleteSection:hover {
-   transform: rotate(360deg);
-   transition: 0.5s;
+   transform: rotate(45deg);
+   transition: 0.1s;
 }
 
 .main-section-btn {

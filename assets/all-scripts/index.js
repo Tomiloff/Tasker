@@ -81,7 +81,7 @@ $(function () {
 
 
    //Обработка клика по .main-section для открытия tab и начала работы с tasks
-   $("main").on("click", ".main-section", function () {
+   $("main").on("dblclick", ".main-section", function () {
       $(this).parent().append("<div class=\"main-section-tab\"><div class=\"section-tab-header flex\"><button class=\"tab-header-btnExit\"><svg width=\"27\" height=\"24\" viewBox=\"0 0 21 18\" fill=\"none\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14.6448 10.3589L19.0562 10.3657C19.607 10.3666 19.7349 10.0506 19.3442 9.65992L10.9777 1.29338C10.5847 0.900364 9.95284 0.903479 9.56121 1.29511L1.22862 9.62769C0.832895 10.0234 0.965192 10.3375 1.51496 10.3384L5.64476 10.3448V14.5247C5.64476 15.6281 6.53902 16.5243 7.64215 16.5243H12.6474C13.7489 16.5243 14.6448 15.629 14.6448 14.5247V10.3589Z\" stroke=\"black\" stroke-width=\"1.3\" /></svg></button><h2>Новый раздел</h2></div><button class=\"section-tab-btn flex\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M10 6C10 7.10457 10.8954 8 12 8H17C17.5523 8 18 8.44771 18 9C18 9.55229 17.5523 10 17 10H12C10.8954 10 10 10.8954 10 12V17C10 17.5523 9.55229 18 9 18C8.44771 18 8 17.5523 8 17V12C8 10.8954 7.10457 10 6 10H1C0.447715 10 0 9.55229 0 9C0 8.44771 0.447715 8 1 8H6C7.10457 8 8 7.10457 8 6V1C8 0.447715 8.44771 0 9 0C9.55229 0 10 0.447715 10 1V6Z\" fill=\"#fff\" /></svg></button></div>");
       $("body").css({
          "overflow": "hidden"
