@@ -176,15 +176,18 @@ main {
    border: 1px solid var(--black);
    font-size: 15px;
    padding: 0 5px;
-   text-align: center;
+   text-align: left;
 }
 
 #addName {
+   position: absolute;
+   bottom: 43px;
+   right: 52px;
    margin-left: 5px;
    border-radius: 50%;
    background: none;
-   border: 1px solid var(--black);
    cursor: pointer;
+   display: none;
 }
 
 .important-section {
