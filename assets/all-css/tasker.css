@@ -5,7 +5,7 @@
    color: var(--black);
    border-bottom: 2px solid var(--green);
    position: fixed;
-   background: var(--grey);
+   background: var(--pale-lime);
     z-index: 9000;
 }
 
@@ -171,6 +171,7 @@ main {
 }
 
 #mainSectionName {
+   width: 100%;
    background: none;
    border-radius: 10px;
    border: 1px solid var(--black);
@@ -182,12 +183,16 @@ main {
 #addName {
    position: absolute;
    bottom: 43px;
-   right: 52px;
+   right: 44px;
    margin-left: 5px;
    border-radius: 50%;
    background: none;
    cursor: pointer;
    display: none;
+}
+
+#addName:hover {
+   color: #FFFFFF;
 }
 
 .important-section {
