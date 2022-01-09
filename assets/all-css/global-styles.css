@@ -8,6 +8,7 @@
    --green: #61DEA4;
    --grey: #EBEFF5;
    --dul-red: #ff00007d;
+   --pale-lime: #F0FFF0;
  }
 
  
@@ -16,7 +17,7 @@
    font-family: 'OpenSansLight';
    font-size: 18px;
    font-weight: bold;
-   background: var(--grey);
+   background: var(--pale-lime);
  }
 
  h1 {
