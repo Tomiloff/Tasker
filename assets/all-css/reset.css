@@ -105,6 +105,7 @@ textarea,
 button {
   outline: none !important;
   border: none;
+  background: none;
 }
 html {
   height: 100%;

@@ -18,7 +18,6 @@
 }
 
 .header-btn {
-   background: none;
    cursor: pointer;
    position: relative;
    border-radius: 50%;
@@ -91,7 +90,6 @@
    position: absolute;
    top: 30px;
    right: 30px;
-   background: none;
    border: 1px solid var(--grey);
    border-radius: 50%;
    height: 40px;
@@ -130,7 +128,6 @@ main {
 }
 
 .editSection {
-   background: none;
    position: absolute;
    top: 10px;
    right: 10px;
@@ -143,7 +140,6 @@ main {
 }
 
 .deleteSection {
-   background: none;
    position: absolute;
    bottom: 10px;
    right: 10px;
@@ -171,7 +167,6 @@ main {
 
 #mainSectionName {
    width: 100%;
-   background: none;
    border-radius: 10px;
    border: 1px solid var(--black);
    font-size: 15px;
@@ -185,7 +180,6 @@ main {
    right: 44px;
    margin-left: 5px;
    border-radius: 50%;
-   background: none;
    cursor: pointer;
    display: none;
 }
@@ -238,7 +232,6 @@ main {
 }
 
 .tab-header-btnExit {
-   background: none;
    transform: rotate(270deg);
    cursor: pointer;
    margin-right: 20px;
@@ -283,7 +276,6 @@ main {
 }
 
 .section-tab-task button {
-   background: none;
    margin-left: 10px;
    cursor: pointer;
 }
@@ -302,13 +294,11 @@ main {
 }
 
 .section-tab-item button {
-   background: none;
    margin-left: 10px;
    cursor: pointer;
 }
 
 .tab-task-textarea {
-   background: none;
    width: 100%;
    color: var(--grey);
    font-size: 15px;
