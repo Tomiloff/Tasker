@@ -6,7 +6,7 @@
    border-bottom: 2px solid var(--green);
    position: fixed;
    background: var(--pale-lime);
-    z-index: 9000;
+   z-index: 100;
 }
 
 .header-logo svg {
@@ -27,7 +27,7 @@
 }
 
 .header-btn:hover {
-   background: #f1f4ff;
+   background: var(--grey);
 }
 
 .header-btn-icon {
@@ -71,7 +71,7 @@
    top: 0;
    left: 0;
    transform: translate(-0, -0);
-   z-index: 90000;
+   z-index: 200;
    height: 100vh;
    width: 100vw;
    background: var(--green);
@@ -96,7 +96,7 @@
    border-radius: 50%;
    height: 40px;
    width: 40px;
-   padding: 0;
+   align-items: center;
    cursor: pointer;
 }
 
@@ -105,8 +105,6 @@
 }
 
 main {
-   max-width: 1360px;
-   margin: 0 auto;
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
    grid-column-gap: 6px;
@@ -178,7 +176,7 @@ main {
    border: 1px solid var(--black);
    font-size: 15px;
    padding: 0 5px;
-   text-align: left;
+   text-align: center;
 }
 
 #addName {
@@ -221,7 +219,7 @@ main {
    top: 0;
    left: 0;
    transform: translate(-0, -0);
-   z-index: 90000;
+   z-index: 300;
    height: 100vh;
    width: 100vw;
    background: var(--green);
@@ -231,6 +229,12 @@ main {
 
 .section-tab-header {
    align-items: center;
+   padding: 7px 0;
+   margin-bottom: 30px;
+}
+
+#tab-header-title {
+   font-size: 26px;
 }
 
 .tab-header-btnExit {
@@ -238,6 +242,16 @@ main {
    transform: rotate(270deg);
    cursor: pointer;
    margin-right: 20px;
+}
+
+.tab-header-line {
+   height: 2px;
+   position: absolute;
+   background: var(--grey);
+   left: 50%;
+   top: 73px;
+   transform: translate(-50%, 0);
+   width: 100%;
 }
 
 .section-tab-btn {
